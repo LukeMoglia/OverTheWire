@@ -1,0 +1,11 @@
+From Bandit0 to Bandit1 
+
+located on Bandit0 there was a file called readme
+
+ran command: file readme this told me that the file contained text
+ran command: cat readme to see the text inside which was below
+
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+I used that as the password to ssh onto Bandit1 and it worked
+

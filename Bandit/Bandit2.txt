@@ -1,0 +1,10 @@
+from bandit1 to bandit2
+
+on bandit1 there's a file that is named -
+
+its a special character so you had to do cat ./- to see what was in the file
+
+the password was in the file and was the below
+
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+

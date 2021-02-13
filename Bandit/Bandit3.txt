@@ -1,0 +1,7 @@
+from Bandit2 to Bandit3
+
+for this one there was a file with spaces in it. To access this one you have to use single quotes to wrap the name
+
+when doing cat 'there is spaces in this name' the password was in there as below
+
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK

@@ -1,0 +1,15 @@
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+password: bandit0
+
+
+This is what I needed to beat level0 
+
+ssh is the command to shell onto the machine
+
+bandit0 is the username
+
+bandit.labs.overthewire.org is the location of the machine
+
+-p 2220 using the -p tells it you want to select a port to connect to and then you put the port number. In this case it was 2220
+
+bandit0 was also the password to connect to the machine
