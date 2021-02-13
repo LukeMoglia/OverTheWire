@@ -1,0 +1,9 @@
+This one the password was in a hidden directory. I cd into the right directory.
+
+To see hidden files I did ls -a 
+
+this reveals all hidden files within a directory. Just doing ls on it's own wouldn't show it
+
+password is as below
+
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
