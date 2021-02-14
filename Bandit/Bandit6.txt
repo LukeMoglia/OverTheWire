@@ -1,0 +1,18 @@
+This one was sort of similar to the last one. There was a password in a file hidden amongst a lot of other files. 
+We were told that the file was Human-readable, 1033 bytes in size and not executable 
+What I did was to search on size
+so I ran command find . -size 1033c
+
+This searched everywhere for a file that is 1033 bytes in size
+
+This returned ./inhere/maybehere07/.file2
+
+I navigated to the /inhere/maybehere07 directory and did ls
+
+it didn't show a file called .file2
+
+at this point I thought prehaps it's a hidden file so I ran ls -a
+
+I then ran cat .file2 and it outputted this password below
+
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
