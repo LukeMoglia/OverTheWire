@@ -1,0 +1,32 @@
+This one was similar to the last couple in a way. There was files in a folder which I had to cd into
+
+These files were named -file00 -file01 etc
+
+since the hint said the password was in one of these files that was human readable I used file ./-file00 to output the contents of the file
+
+since there was 10 files I decided to loop the command. I could have done this one by one, but if there had been 100 or 1000 files it would
+have taken alot longer. The script I wrote to do this is below
+
+for fileNum in {1..9}
+do 
+	command file ./-file0$fileNum
+done
+
+This gave me an output of this:
+
+./-file01: data
+./-file02: data
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data
+
+once I saw that file07 had ASCII text which is human readable I used:
+
+cat ./-file07 which produced the output below which is the password 
+
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
