@@ -1,0 +1,20 @@
+This one was hard.
+
+data.txt was a hex dump
+
+this needed to be reversed so I did 
+xxd -r data.txt
+
+this left a compressed file
+
+if you do file data.txt it said it was a gzip file
+
+so I added the gz extension back on by doing mv data.txt data.gz
+
+then gzip -d data.gz
+
+and then did file data
+
+that told me it was a compressed file again so i did this a few times until it left a human readable file which had the password
+
+The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
