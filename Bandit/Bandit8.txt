@@ -1,0 +1,22 @@
+This was a pretty easy one although first time I used the grep command
+
+ssh'd onto the machine. did a ls to see what is in the directory
+
+saw a file called data.txt
+
+did a file data.txt and it was a word and then a "password"
+
+the hint on the website had the password next to Millionth
+
+so I used the grep command to return the line of text with millionth on it
+
+grep -i 'millionth' data.txt
+
+which returned
+
+millionth	cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+and the password was correct
+
+
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV

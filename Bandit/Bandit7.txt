@@ -1,0 +1,9 @@
+This one was a little harder
+
+I had to go back one directory using ../ then did a search using find -size 33c -group bandit7
+
+this showed me there was a file called bandit7.password
+ 
+I navigated to this directory /var/lib/dpkg/info and lo and behold it contained the password as below
+
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs

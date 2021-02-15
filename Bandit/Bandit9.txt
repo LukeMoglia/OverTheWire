@@ -1,0 +1,17 @@
+This one also contained a file called data.txt
+
+I did file data.txt and saw it contained text
+
+then I did cat data.txt to see the text
+
+it contained lots and lots of lines of what looked like passwords
+
+On the hint on the website it says the password only appears once
+
+so I used the uniq command along with sort to get the password
+
+cat data.txt | sort | uniq -u
+
+which gave the password
+
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
