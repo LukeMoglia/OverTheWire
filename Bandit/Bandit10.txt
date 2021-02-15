@@ -1,0 +1,26 @@
+This one was a little harder, well at least to get an acceptable output
+
+What I did first was file data.txt to see what the file was and it said it just contained data
+
+I decided to cat the file and I got some non readable text mixed with some readable text
+
+I used to strings command to remove that data so I did strings data.txt
+
+which came back and I could see the password in the text
+
+Job done right? nah not for me, as in a bigger file it could be 100s or 1000s of lines which have strings on
+
+in the hint for this level it said it was preceded by some equals signs
+
+so I used grep to remove any lines that didn't get a few equal signs 
+
+the command I ran was strings data.txt | grep '==='
+
+this gave me an output of:
+
+========== the*2i"4
+========== password
+Z)========== is
+&========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+and the password is there

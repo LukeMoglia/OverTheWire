@@ -1,0 +1,27 @@
+this one was sort of easy kind of hard
+
+the file was there and I could open it and do cat data.txt which outputted:
+
+Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
+
+on the hint it said that the position of the letters had been rotated 13 times
+
+I found a command online which is translate or tr
+
+for example this command could translate lowercase to uppercase
+
+in this case I used it to translate each one to a letter 13 letters infront
+
+tr '[a-z][A-Z]' '[n-za-m][N-ZA-M]'
+
+so that command translates anything lowercase in the alphabet to a letter 13 letters infront
+
+so for a that becomes n and so on and so forth
+
+so I got the output of data.txt and ran that command on it
+
+cat data.txt | tr '[a-z][A-Z]' '[n-za-m][N-ZA-M]'
+
+which gave an output of
+
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
